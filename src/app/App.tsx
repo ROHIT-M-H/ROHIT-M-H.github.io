@@ -1527,7 +1527,7 @@ function StickyBuy() {
             <Flame className="h-5 w-5" />
           </span>
           <span className="hidden sm:inline">Buy the Black Painted Piston Clock</span>
-          <span className="sm:hidden">Buy Now — ₹3,999</span>
+          <span className="sm:hidden">Buy Now — ₹4,999</span>
           <ArrowRight className="h-4 w-4" />
         </motion.button>
       )}
