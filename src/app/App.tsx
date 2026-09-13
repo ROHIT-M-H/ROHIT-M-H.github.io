@@ -559,12 +559,13 @@ function ClockOverlay() {
 
 function TrustBar() {
   const items = [
-    "AS SEEN IN GARAGES",
-    "SHIPPED WORLDWIDE",
+    "BORN IN THE GARAGE",
+    "SCRAP TO ART",
     "HANDMADE IN INDIA",
-    "ECO CERTIFIED",
-    "PREMIUM EDITION",
-    "1-YEAR WARRANTY",
+     "BUILT FROM REAL PARTS",
+    "EVERY PIECE IS UNIQUE",
+    "MADE FOR GEARHEADS",
+    "UNIQUE BY DESIGN",
   ];
   return (
     <section className="relative z-10 border-y border-white/5 bg-black/40 backdrop-blur py-5 overflow-hidden">

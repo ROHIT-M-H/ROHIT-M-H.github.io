@@ -41,6 +41,11 @@ import pistonClockFront from "../../imports/PistonClock/Front.jpg";
 import pistonClockBack from "../../imports/PistonClock/Back.jpg";
 import pistonClockLeft from "../../imports/PistonClock/Left.jpg";
 import pistonClockRight from "../../imports/PistonClock/Right.jpg";
+
+import clutchPlateFront from "../../imports/ClutchPlateClock/ClutchPlateFront.jpeg";
+import clutchPlateBack from "../../imports/ClutchPlateClock/ClutchPlateBack.jpeg";
+import clutchPlateLeft from "../../imports/ClutchPlateClock/ClutchPlateSide1.jpeg";
+import clutchPlateRight from "../../imports/ClutchPlateClock/ClutchPlateSide2.jpeg";
 // import myNewPhoto from "../../imports/MY_NEW_PHOTO.jpg";   ← example
 
 // STEP 3 — your products. Copy a block to add a new one.
@@ -53,34 +58,34 @@ export const CATALOG: Product[] = [
     images: [pistonClockFront, pistonClockBack, pistonClockLeft, pistonClockRight],
     features: [
       "Genuine retired automobile engine piston",
-      "Hand-painted matte black finish",
+      "Hand-painted matte black finish", 
       "Deep-cleaned & restored by hand",
       "Reliable silent quartz movement",
       "Certificate of authenticity included",
     ],
     description:
       "Each clock starts as a genuine, retired automobile piston — pulled from scrapyards and workshops. I clean it by hand, treat it for rust, coat it in a hand-applied matte black paint, and press a precision silent-quartz movement into the crown. The black finish gives it a raw, industrial character — bold enough for a garage, refined enough for a living room. No two pistons are identical. Yours will be unmistakably yours.",
-    stock: 1,
+    stock: 0,
     badge: "Limited Edition",
   },
-  // {
-  //   id: "002",
-  //   name: "Piston Clock — Chrome Polished",
-  //   subtitle: "Mirror-grade hand-polished piston · Chrome shine · Silent quartz",
-  //   price: 5499,
-  //   images: [img4436, img4433, img4439, img4446],
-  //   features: [
-  //     "Genuine engine piston, polished to a mirror finish",
-  //     "Chrome-grade hand buffing, every surface",
-  //     "Rust-treated and sealed for longevity",
-  //     "Silent sweep quartz movement",
-  //     "Serial-numbered certificate of authenticity",
-  //   ],
-  //   description:
-  //     "A retired piston taken to a mirror-grade shine. Hours of hand-buffing bring the raw metal back to a reflective chrome finish that catches light from across the room. Sealed against tarnish, fitted with a silent-sweep quartz movement. A statement piece for anyone who loves polished machinery.",
-  //   stock: 1,
-  //   badge: "New",
-  // },
+  {
+    id: "002",
+    name: "Clutch Plate Clock — Matt Black",
+    subtitle: "Genuine clutch plate · Gold mechanical detailing · Elegant matte black finish",
+    price: 6999,
+    images: [clutchPlateFront, clutchPlateBack, clutchPlateLeft, clutchPlateRight],
+    features: [
+      "Genuine automotive clutch plate, repurposed into a statement clock",
+      "Hand-finished matt black body with contrasting gold mechanical detailing",
+      "Original clutch springs and hardware preserved as the centrepiece",
+      "Silent sweep quartz movement for smooth, quiet operation",
+      "Custom-built metal stand with protective supports for stability"
+    ],
+    description:
+      "A genuine automotive clutch plate transformed into a bold mechanical timepiece. The matt black finish highlights the raw engineering of the clutch assembly, while the gold-finished springs and hardware add a striking contrast. Built around the original mechanical character of a clutch plate and fitted with a silent-sweep quartz movement, it turns retired automotive machinery into a distinctive piece of functional art. Each clock is a unique testament to the beauty of repurposed machinery.",
+    stock: 1,
+    badge: "New",
+  },
   // {
   //   id: "003",
   //   name: "Piston Clock — Raw Industrial",
