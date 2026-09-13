@@ -46,6 +46,13 @@ import clutchPlateFront from "../../imports/ClutchPlateClock/ClutchPlateFront.jp
 import clutchPlateBack from "../../imports/ClutchPlateClock/ClutchPlateBack.jpeg";
 import clutchPlateLeft from "../../imports/ClutchPlateClock/ClutchPlateSide1.jpeg";
 import clutchPlateRight from "../../imports/ClutchPlateClock/ClutchPlateSide2.jpeg";
+
+import PressurePlateFront from "../../imports/PressurePlateClock/PressurePlateFront (2).jpeg";
+import PressurePlateBack from "../../imports/PressurePlateClock/PressurePlateBack.jpg";
+import PressurePlateSide1 from "../../imports/PressurePlateClock/PressurePlateSide1.jpg";
+import PressurePlateSide2 from "../../imports/PressurePlateClock/PressurePlateSide2.jpg";
+
+
 // import myNewPhoto from "../../imports/MY_NEW_PHOTO.jpg";   ← example
 
 // STEP 3 — your products. Copy a block to add a new one.
@@ -86,23 +93,24 @@ export const CATALOG: Product[] = [
     stock: 1,
     badge: "New",
   },
-  // {
-  //   id: "003",
-  //   name: "Piston Clock — Raw Industrial",
-  //   subtitle: "Untouched patina · Marks of the road preserved · Silent quartz",
-  //   price: 4499,
-  //   images: [img4439, img4433, img4440, img4446],
-  //   features: [
-  //     "Authentic piston with original patina retained",
-  //     "Cleaned but left raw — every mark honored",
-  //     "Clear protective coat to lock in character",
-  //     "Silent quartz movement",
-  //     "Certificate of authenticity included",
-  //   ],
-  //   description:
-  //     "For those who want the machine exactly as it lived. This edition keeps the piston's original patina, scoring, and heat marks — cleaned and sealed but never polished away. Every scratch is a mile driven. Raw, honest, and full of story.",
-  //   stock: 1,
-  // },
+  {
+    id: "003",
+    name: "Pressure Plate Clock — Black & Gold",
+    subtitle: "Genuine pressure plate · Hand-finished black · Gold mechanical detailing",
+    price: 8499,
+    images: [PressurePlateFront, PressurePlateBack, PressurePlateSide1, PressurePlateSide2],
+    features: [
+      "Authentic automotive pressure plate transformed into a functional timepiece",
+      "Hand-finished black body with striking gold mechanical detailing",
+      "Original diaphragm spring assembly preserved as the centrepiece",
+      "Solid 6 kg automotive-grade construction",
+      "Custom-built stand designed to complement the mechanical form",
+      "Upcycled automotive component — giving retired machinery a second life",
+    ],
+    description:
+      "Built from a genuine automotive pressure plate, this timepiece turns precision engineering into functional art. The deep black finish brings out the intricate diaphragm spring assembly, while the gold-finished fasteners create a striking mechanical contrast. Mounted on a custom-built stand and fitted with a silent quartz movement, it is a bold statement piece made for those who appreciate machines, craftsmanship, and automotive heritage.",
+    stock: 1,
+  },
   // {
   //   id: "004",
   //   name: "Piston Clock — Ember Accent",
